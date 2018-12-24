@@ -1,6 +1,10 @@
 .App {
-	margin: 200px;
+   background-color: rgba(224, 224, 224, 0.472) !important;
 }
-.container-main {
-	background-color: #000000;
+.her {
+   padding-top: 100px;
+   
+}
+.test2 {
+   background: linear-gradient(to right, #24c6dc, #514a9d);
 }

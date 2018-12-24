@@ -1,1 +1,1 @@
-#Crypto Index
+# Coin Mania
