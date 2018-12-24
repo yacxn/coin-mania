@@ -1,7 +1,10 @@
 .main-nav {
     width: 100%;
     position: fixed;
-    height: 12vh;
+    height: 20vh;
     z-index: 999;
     background: linear-gradient(to right, #24c6dc, #514a9d);
+}
+NavLink {
+    color: aqua;
 }
