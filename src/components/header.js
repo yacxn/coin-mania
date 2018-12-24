@@ -6,11 +6,10 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  NavLink, 
+  Container
+  }
+  from 'reactstrap';
 import './header.css';
 
 export default class Header extends React.Component {
@@ -31,6 +30,7 @@ export default class Header extends React.Component {
     return (
       <div>
         <Navbar  className="main-nav" color="light" light expand="md">
+        < Container>
           <NavbarBrand href="/">Coin Mania</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
@@ -46,6 +46,7 @@ export default class Header extends React.Component {
               </NavItem>
             </Nav>
           </Collapse>
+          </Container>
         </Navbar>
       </div>
     );

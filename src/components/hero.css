@@ -1,0 +1,6 @@
+.hero-section{
+     background: linear-gradient(to right, #24c6dc, #514a9d);
+     height:90vh;
+     transform: skewY(-6deg);
+     transform-origin: top left;
+}

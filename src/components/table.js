@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import './table.css';
 let NumberFormat = require('react-number-format');
 
 class Table extends Component {
@@ -22,7 +23,7 @@ class Table extends Component {
      }
     render() {
         return (
-            <div>
+            <div class="card main-table">
     <table class="table">
     <div id="container">
     <tbody>
