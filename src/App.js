@@ -25,19 +25,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {Object.keys(this.state.cryptos).map((key)=> (
-          <div id="container">
-          <table class="table">
-          <tbody>
-              <tr>
-                <th scope="row">{key}</th>
-                <td><NumberFormat value={this.state.cryptos[key].USD} displayType={'text'} decimalPrecision={2} thousandSeparator={true} prefix={'$'}/></td>
-              </tr>
-            </tbody>
-            </table>
-          </div>
-          ))}
-          
+              {Object.keys(this.state.cryptos).map((key)=> (
+                <div id="container">
+                <table class="table">
+                <tbody>
+                    <tr>
+                      <th scope="row">{key}</th>
+                      <td><NumberFormat value={this.state.cryptos[key].USD} displayType={'text'} decimalPrecision={2} thousandSeparator={true} prefix={'$'}/></td>
+                    </tr>
+                  </tbody>
+                  </table>
+                </div>
+          ))} 
       </div>
     );
   }
