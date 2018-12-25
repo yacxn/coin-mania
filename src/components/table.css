@@ -1,10 +1,6 @@
 .main-table {
     text-align: center;
-    margin-top: -50px;
-    z-index: 999;
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30),
-    0 15px 12px rgba(0, 0, 0, 0.22)
-     !important;
+    
 }
 .card {
     margin-top: -350px;
