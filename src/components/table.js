@@ -46,9 +46,7 @@ class Table extends Component {
           if (!this.state.cryptoCompareOk) return "";
           return CRYPTOLEXT + this.state.coinsMetaData[symbol];
       }
-
     render() {
-
                  return (
             <div class="card main-table">
                     <table class="table">
@@ -59,7 +57,6 @@ class Table extends Component {
                                             <tr>
                                             <th scope="row">{coin.name}</th>
                                             <td>{coin.symbol}</td>
-
                                             <td><NumberFormat value={coin.price_usd} displayType={'text'} decimalPrecision={2} thousandSeparator={true} prefix={'$'}/></td>
                                             <td>{coin.percent_change_1h}</td>
                                             <td>{coin.percent_change_24h}</td>
