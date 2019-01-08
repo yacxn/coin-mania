@@ -2,7 +2,14 @@
     text-align: center;
     
 }
+.table {
+    width: auto;
+    margin: 0px auto;
+    float: none;
+}
 .card {
+    width: 70%;
+    margin: 0 auto;
     margin-top: -350px;
     z-index: 999;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30),

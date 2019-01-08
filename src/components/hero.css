@@ -3,4 +3,9 @@
      height:90vh;
      transform: skewY(-6deg);
      transform-origin: top left;
+     text-align: center;
+}
+.hero-section>img {
+     width: 80rem;
+     transform: skewY(6deg);
 }

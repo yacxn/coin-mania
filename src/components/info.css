@@ -1,0 +1,17 @@
+.info {
+    margin-top: 5rem;
+    background-color: #bdc3c7;
+    height: 40rem;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+}
+.image {
+    width: 20rem;
+}
+.main-txt {
+    transform: skewY(6deg);
+    text-align:center
+}
+.the-content {
+    padding-top: 7rem;
+}

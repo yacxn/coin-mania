@@ -5,7 +5,7 @@ import Header from './components/header';
 import Table from './components/table';
 import Section from './components/section';
 import Hero from './components/hero';
-
+import Info from './components/Info';
 class App extends Component {
   render() {
     return (
@@ -15,6 +15,7 @@ class App extends Component {
       <Container className="sec">
         <Table/>
       </Container>
+      <Info/>
       </div>
     );
   }
