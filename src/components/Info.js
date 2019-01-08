@@ -19,7 +19,7 @@ const Info = () => {
                         </div>
                         </div>
                         <div class="col">
-                        <img src="img/pic3.svg" className="image"/>
+                        <img src="img/pic3.svg" draggable="false" className="image"/>
                         </div>
                     </div>
                 </div>
