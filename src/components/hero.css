@@ -1,11 +1,22 @@
 .hero-section{
-     background: linear-gradient(to right, #24c6dc, #514a9d);
-     height:90vh;
-     transform: skewY(-6deg);
-     transform-origin: top left;
      text-align: center;
 }
-.hero-section>img {
-     width: 80rem;
-     transform: skewY(6deg);
+.header__bg {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     right: 0;
+     left: 0;
+     width: 100%;
+     height: 90vh;
+     background: linear-gradient(to right, #24c6dc, #514a9d);
+     transform: skewY(-6deg);
+     transform-origin: top left;
+}
+
+
+.Tilt {
+     width: 60rem !important;
+     margin: 0 auto;
+     position: relative;
 }

@@ -29,20 +29,22 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <Navbar  className="main-nav" color="light" light expand="md">
+        <Navbar  className="main-nav bg-transparent" color="light" light expand="md" >
         <Container>
-          <NavbarBrand href="/">Coin Mania</NavbarBrand>
+        <a className="navbar-brand" href="#">
+            <img src="/img/logo.svg" width="60" height="60" alt=""/>
+        </a>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#">About</NavLink>
+                <NavLink className="navItem" href="#">About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Product</NavLink>
+                <NavLink  className="navItem" href="#">Product</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">Follow</NavLink>
+                <NavLink className="navItem" href="#">Follow</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

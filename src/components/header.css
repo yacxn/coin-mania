@@ -2,8 +2,13 @@
     width: 100%;
     height: 20vh;
     z-index: 999;
-    background: linear-gradient(to right, #24c6dc, #514a9d);
+    background:transparent;
 }
-NavLink {
-    color: aqua;
+
+.main-nav {
+    color: white;
+}
+.navItem {
+    color: white !important;
+    font-weight: 700;
 }
