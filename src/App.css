@@ -3,8 +3,11 @@
 }
 .sec {
    padding-top: 120px;
-   
+   height: 40rem;
 }
 .test2 {
    background: linear-gradient(to right, #24c6dc, #514a9d);
+}
+.btn-primary {
+   background: linear-gradient(to right, #514a9d, #24c6dc);
 }
