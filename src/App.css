@@ -1,9 +1,11 @@
 .App {
    background-color: rgba(224, 224, 224, 0.472) !important;
+   overflow-x: hidden;
+   font-family: 'Raleway', sans-serif;
 }
 .sec {
    padding-top: 120px;
-   height: 40rem;
+   height: 180vh;
 }
 .test2 {
    background: linear-gradient(to right, #24c6dc, #514a9d);

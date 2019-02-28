@@ -16,11 +16,15 @@
 .main-img {
      width: 50rem !important;
      position: relative;
-     margin-top: 10rem;
+     margin-top: 1rem;
+     max-width: 100%;
+     max-height: 100%;
 }
 .header_content{
-     width: 50rem !important;
+     
      position: relative;
      text-align: center;
      margin: 0 auto;
+     font-size: 3rem;
+     color: white;
 }

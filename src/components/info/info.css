@@ -1,0 +1,11 @@
+.info {
+     background: linear-gradient(to right, #24c6dc, #514a9d);
+    height: 20vh;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+.info>p{
+    padding-top: 2rem;
+    font-weight: bolder;
+}
