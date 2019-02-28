@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <Header/>
         <Hero/>
-        <Container className="sec">
+        <Container className="main">
           <Table/>
         </Container>
         <Info/>
