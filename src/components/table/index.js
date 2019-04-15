@@ -16,6 +16,7 @@ class Table extends Component {
 //Get Data from API and set state
       async loadData() {
           const coinsData = await axios.get(CRYPTOCOMPARE_API_URI);
+          
           this.setState({
               coinsData: coinsData.data.Data,
           });
@@ -27,7 +28,7 @@ class Table extends Component {
       }
 
     render() {
-                 return (
+        return (
             <div className="card main-table table-responsive table-hover">
                 <table className="table">
                             <thead>
